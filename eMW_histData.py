@@ -3,7 +3,7 @@
 #   This program uses the Juicenet API to create a .csv file holding the historical data for the past 40 charging
 #   sessions for a eMotorWerks charging station. It will either create a new .csv file or overwrite an existing one.
 #   This only returns the history of 1 charging station, so this will need to be run and slightly altered for each
-#   station. The areas that may need to by modified are clearly commented in the code.
+#   station. The areas that may need to be modified are clearly commented in the code.
 #
 #
 #   The format of the file is:
@@ -93,7 +93,7 @@ class eMW_histData:
 
         resultFile.close()
 
-
+# ---------------------------------------------------------------------------------
 
 class Api:
 
@@ -177,7 +177,7 @@ class Api:
                                  headers=headers)
         response_json = response.json()
         return response_json
-# --------------------------------------------------------------------------------
+
     # Sends Setpoint Amps of Current to Charger Station
     def set_max_amperage(self, setpoint, charger):
             data = {
