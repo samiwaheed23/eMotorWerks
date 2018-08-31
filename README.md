@@ -11,12 +11,12 @@ station accordinly. The areas that may need to by modified are clearly commented
 
 The format of the .csv file created is:
 
-  timestamp | power (watts) | station ID
-  __________|_______________|___________
-            |               |
-            |               |
-            |               |
-            |               |
+#  timestamp | power (watts) | station ID
+#  __________|_______________|__________
+#            |               |
+#            |               |
+#            |               |
+#            |               |
 
 TO USE:
 -Jump to the 3 areas in "eMW_hisData.py" labeled "*** Change Charger Index Accordingly Here". Change the Charger[] index to align with the correct station as needed.
