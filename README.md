@@ -14,12 +14,12 @@ to allow for easy reuse. It also contains extra methods to access the Juicenet A
 
 
 ## Format of .csv File Created:
-timestamp, power (Watts), station ID
+Timestamp, Power (Watts), Station ID
 
 ## To Use:
 1. Jump to the 3 areas in 'eMW_hisData.py' labeled "*** Change Charger Index Accordingly Here". Change the Charger[] index to align with the correct station as needed.
 2. Run 'runit.py'
-3. .csv file with the name specified will be created. You must close any files of the same name to successfully run the program
+3. The .csv file with the name specified will be created. You must close any files of the same name to successfully run the program
 
 
 ## Files:
