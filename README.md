@@ -23,6 +23,6 @@ timestamp, power (Watts), station ID
 
 
 ## Files:
-1. eMW_histData.py / this contains the main program
-2. runit.py        / driver program
+1. eMW_histData.py # this contains the main program
+2. runit.py        # driver program
 3. init.py         
