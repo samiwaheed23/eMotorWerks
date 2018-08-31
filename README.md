@@ -12,7 +12,7 @@ station accordinly. The areas that may need to by modified are clearly commented
 The format of the .csv file created is:
 
   timestamp | power (watts) | station ID
-  __________|_______________|____________
+  __________|_______________|___________
             |               |
             |               |
             |               |
