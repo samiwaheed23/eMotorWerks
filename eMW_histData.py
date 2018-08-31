@@ -36,16 +36,16 @@ class eMW_histData:
 
     def run(self):
 
-        # Access Juicenet
-        zappers = Api('6123894b-8c65-41db-9fe9-091aec21b762')
+        # Access Juicenet API
+        # Enter API credentials here
+        zappers = Api('')
         chargers = zappers.get_devices()
 
         Tokens = [c.token() for c in chargers]
 
         # Get Dictionary of Charging History
-
         # *** Change Charger Index Accordingly Here ***
-        chargingHist = zappers.get_history(chargers[0])
+        chargingHist = zappers.get_history(chargers[ ])
         # ***                                       ***
 
         del chargingHist['success']
@@ -64,7 +64,7 @@ class eMW_histData:
         for i in range(0, len(sessionIDs)):
 
             # *** Change Charger Index Accordingly Here ***
-            tempPlot = zappers.get_plot(chargers[7], sessionIDs[i])
+            tempPlot = zappers.get_plot(chargers[ ], sessionIDs[i])
             # ***                                       ***
 
             # Cleans Dictionary
@@ -83,8 +83,8 @@ class eMW_histData:
                 finalList[j]["id"] = sessionIDs[i]
 
         # Write to .csv File
-        # *** Change File Name Corresponding to Charger Index Accordingly Here ***
-        with open('history_station0.csv', 'w') as resultFile:
+        # *** Change File Name Accordingly Here ***
+        with open('history_station.csv', 'w') as resultFile:
         # ***                                       ***
 
             fieldnames = ['t', 'v', 'id']
