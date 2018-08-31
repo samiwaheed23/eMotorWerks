@@ -1,6 +1,6 @@
 # Access Historical Data For eMotorWerks Charging Stations Using the Juicenet API 
-## Author: Sami Waheed
-## Date: August 2018
+##### Author: Sami Waheed
+##### Date: August 2018
 
 
 This program uses the Juicenet API to create a .csv file holding the historical data for the past 40 charging
