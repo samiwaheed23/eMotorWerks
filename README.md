@@ -9,7 +9,8 @@ Access Historical Data For eMotorWerks Charging Stations Using the Juicenet API
 This program uses the Juicenet API to create a .csv file holding the historical data for the past 40 charging
 sessions for an eMotorWerks charging station. It will either create a new .csv file or overwrite an existing one.
 This only returns the history of 1 charging station, so this will need to be run and slightly altered for each
-station accordinly. The areas that may need to by modified are clearly commented in the code.
+station accordinly. The areas that may need to be modified are clearly commented in the code. The code is heavily commented
+to allow for easy use.
 
 
 ## Format of .csv File Created:
